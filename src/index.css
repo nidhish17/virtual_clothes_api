@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+body {
+    @apply bg-neutral-900 text-white;
+}
+
+.btn {
+    @apply px-12 py-3 capitalize bg-white rounded hover:bg-black hover:text-white transition-all duration-200 text-black text-xl font-semibold;
+}
+
+.btn-process {
+    @apply text-white bg-violet-800 hover:bg-violet-900;
+}
+
+.btn-delete-img {
+    @apply px-3.5 py-2 rounded-full text-white bg-neutral-950 absolute z-10 top-0 right-0
+}
+
